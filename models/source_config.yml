@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: source_1
+    database: SNOW_DBT_DB
+    schema: SNOW_DBT_SCHEMA
+    tables:
+      - name: inventory
+      - name: customers
+      - name: promotions
+      - name: sales
+      - name: products
